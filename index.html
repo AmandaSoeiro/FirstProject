@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./mypet.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Roboto:wght@300&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <title>A1</title>
+
+</head>
+
+<body>
+
+    </script>
+    <div class="caixa-superior">
+        <div class="cabecalho">
+            <backh class="titulo-cabecalho">MyPet</h2>
+                <a href="#titulo-inferior" class="link-cabecalho"> Quem Somos </a>
+                <a href="#titulo-meio" class="link-cabecalho"> Serviços </a>
+                <a class="link-cabecalho" onclick="chameOAbacate()">Contato</a>
+                <h1> <img src="dog.png"> MyPet
+                </h1>
+        </div>
+        <form id="formulario-contato" action="https://formsubmit.co/amanda_soeiro@live.com" method="POST">
+            <h3 class="titulo-formulario">Entre em contato</h3>
+            <label>
+                Nome
+                <input type="text" name="Nome" placeholder="Digite seu nome" required />
+            </label>
+            <label>
+                Email
+                <input type="email" name="e-mail" placeholder="Digite seu E-mail" required />
+            </label>
+
+            <label>
+                WhatsApp
+                <input type="tel" name="telefone" placeholder="Digite seu Telefone" required />
+            </label>
+
+            <label>
+                Fale Conosco
+                <textarea name="duvida" placeholder="Qual sua dúvida"></textarea>
+            </label>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+
+    <h2 id="titulo-meio"> Categoria em Destaque </h2>
+    
+    <div>
+        <div class="caixa-central">
+            <div class="card">
+                <h3 class="titulo-card"> Hospedagem </h3>
+                      
+            </div>
+            <div class="card">
+                <h3 class="titulo-card"> Creche </h3>
+
+            </div>
+            <div class="card">
+                <h3 class="titulo-card"> Passeio </h3>
+
+            </div>
+
+            <div class="card">
+                <h3 class="titulo-card"> Veterinário </h3>
+
+            </div>
+            
+    </div>
+
+</div>
+
+<form="formulario-contato"/>
+
+    <h3> MyPet: loucos por cachorro (e por gatos também)</h3>
+    <label>
+        Nome do Pety
+        <input type="text" name="Nome do Pet" placeholder="Digite o nome" required />
+    </label>
+    <label>
+        Quando
+        <input input id="date" type="date" value="2022-21-01">
+    </label>
+
+    <label>
+        Tamanho do Pet 
+        <input type="text" name="porte/peso" placeholder="Digite porte/peso" required />
+    </label>
+
+    <button type="submit">Enviar</button>
+</form>
+</div>
+
+</body>
+
+<script>
+    let formulario = document.getElementById("formulario-contato")
+
+    function chameOAbacate() {
+        formulario.className = "mostrar-formulario"
+    }
+
+
+</script>
+
+</html>

@@ -1,0 +1,184 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+ 
+}
+
+.caixa-superior {
+ background-image: url("./pet2.jpg");
+ height: 110vh;
+ background-size: cover;
+
+
+} 
+
+
+.cabecalho {
+    padding-top: 25px;
+    padding-left: 30px;
+background:#FFFFFF;
+height: 75px;
+
+
+}
+
+img{
+
+    background-image: url("./dog.png");
+    height: 17vh;
+
+
+}
+
+.titulo-cabecalho {
+   font-size: 25px;
+   color: #7728AB;
+   display: inline;
+   font-family: 'Mochiy Pop P One', sans-serif;
+  
+}
+.link-cabecalho {
+    font-size: 14px;
+    color: #656161;
+    display: inline;
+    margin-left: 25px ;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+   
+}
+
+h1 {
+
+font-size: 58px;
+color: #FFA000;
+position: relative;
+top: 420px;
+margin-left: 10px ;
+-webkit-text-stroke-width: 2px; 
+-webkit-text-stroke-color: #370359;
+
+
+}
+
+form {
+visibility: hidden;
+opacity:0;
+transition: opacity 1s linear;
+background-color: #feffff;
+border-radius: 10px;
+float: right;
+padding: 20px;
+margin-right: 55px;
+position: relative;
+top: 6%
+}
+
+.mostrar-formulario{
+visibility: visible;
+opacity: 1;
+
+}
+
+input {
+display:block;
+background: #f9f9f9;
+border: 1px dotted #FFA000;
+border-radius: 5px;
+height: 50px;
+width: 280px;
+margin-bottom: 25px;
+padding-left: 5px;
+
+}
+
+textarea{
+display:block;
+height: 100px;
+width: 280px;
+border: 1px dotted #FFA000;
+border-radius: 5px;
+margin-bottom: 15px;
+padding-left: 5px;
+
+}
+
+.titulo-formulario {
+font-size: 18px;
+color: #370359;
+margin-bottom: 30px;
+text-align: center;
+
+}
+
+label {
+font-size: 14px;
+color: #656161;
+}
+
+button {
+
+    width: 280px;
+    height: 40px;
+    cursor:pointer;
+    border:none;
+    border-radius: 5px;
+    background-color: #370359;
+    color:#FFFFFF;
+    
+}
+
+.caixa-central{
+display: flex;
+justify-content:space-evenly;
+
+
+    
+}
+
+#titulo-meio {
+font-size: 18px;
+color: #370359;
+text-align: center;
+margin-top: 30px;
+margin-bottom: 30px;
+font-family:Arial, Helvetica, sans-serif;
+margin-right: 850px;
+
+}
+
+.card{
+border-radius: 0px;
+height: 200px;
+width: 295px;
+background-image: url("pet2.jpg"); 
+background-position: center; 
+background-size: cover;
+
+}
+
+.titulo-card {
+
+background-color: #29B3B6;
+color: #ffffff;
+text-align: center;
+margin-top: 200px;
+padding:10px;
+
+}
+
+
+.caixa-inferior{
+background-color: #370359;
+border-radius: 10px;
+}
+
+#titulo-inferior{
+    color:#FFFFFF;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 30px;
+
+}
